@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
@@ -12,13 +14,14 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatTabsModule } from '@angular/material/tabs';
 
 const modules = [
+  FontAwesomeModule,
+  FormsModule,
+  ReactiveFormsModule,
   MatToolbarModule,
   MatDialogModule,
   MatButtonModule,
   MatFormFieldModule,
   MatInputModule,
-  FormsModule,
-  ReactiveFormsModule,
   MatCardModule,
   MatIconModule,
   MatMenuModule,

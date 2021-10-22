@@ -28,13 +28,6 @@ a {
   color: blue;
 }
 
-#pawIcon {
-  font-size: 1.25em;
-  margin-left: 1.5em;
-  cursor: pointer;
-  color: white;
-}
-
 #barsIcon {
   font-size: 1.25em;
   color: white;
@@ -55,9 +48,5 @@ a {
 
   .standardMenu {
     display: none;
-  }
-
-  #pawIcon {
-    margin-left: 0em;
   }
 }

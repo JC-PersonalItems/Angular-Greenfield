@@ -22,8 +22,8 @@ import { TabComponent } from './features/tabs/tab/tab.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     BrowserAnimationsModule,
+    AppRoutingModule,
     UtilsModule,
     HttpClientModule,
   ],
